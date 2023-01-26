@@ -8,6 +8,8 @@ public class Item {
         this.description = description;
         this.value = value;
     }
+
+
     //tostring() method that returns the object name, description, and value
     public String toString(){
         return String.format("s \n====\n %s \nValue: %d \n", this.name, this.description, this.value);
