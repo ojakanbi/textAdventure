@@ -1,4 +1,6 @@
-public class Enemy {
+//make enemy an abstract class
+
+public abstract class Enemy {
 
     //class level Variables
     // Access Modifier Protected means children/sub classes have access

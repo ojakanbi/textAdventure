@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(args[0]);
         Gold golBar = new Gold(8); // new object of gold initialized
         Sword magicSword = new Sword(); // new object of sword initialized
         Pillow softPillow = new Pillow(); // new object of pillow initialized
@@ -14,8 +13,10 @@ public class Main {
         Dog spotDog = new Dog(); // new object of Dog initialized
         Wolf winterWolf = new Wolf(9); // new object of wolf initialize
 
+        //Action firstaction = new Action();
+        //firstaction.setHotkey('a');
 
-        System.out.println(winterWolf.wolfCurrent());
+        //System.out.println(firstaction.getHotkey());
 
     }
 }
