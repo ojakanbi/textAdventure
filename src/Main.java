@@ -13,10 +13,21 @@ public class Main {
         Dog spotDog = new Dog(); // new object of Dog initialized
         Wolf winterWolf = new Wolf(9); // new object of wolf initialize
 
-        //Action firstaction = new Action();
-        //firstaction.setHotkey('a');
+        MoveEast moveeast = new MoveEast();
+        MoveNorth movenorth = new MoveNorth();
+        MoveSouth moveSouth = new MoveSouth();
+        MoveWest movewest = new MoveWest();
+        Crouch crouch = new Crouch();
+        Flee flee = new Flee();
+        Attack attack = new Attack();
+        ViewInventory viewInventory = new ViewInventory();
 
-        //System.out.println(firstaction.getHotkey());
+
+
+
+        System.out.println(movenorth.str() + " | " + moveeast.str() );
+
+
 
     }
 }
