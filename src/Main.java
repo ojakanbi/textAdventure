@@ -17,7 +17,7 @@ public class Main {
         MoveNorth movenorth = new MoveNorth();
         MoveSouth moveSouth = new MoveSouth();
         MoveWest movewest = new MoveWest();
-        Crouch crouch = new Crouch();
+        Crouch crouch = new Crouch(2); //sets the duration of the crouch action to 2 seconds
         Flee flee = new Flee();
         Attack attack = new Attack();
         ViewInventory viewInventory = new ViewInventory();
